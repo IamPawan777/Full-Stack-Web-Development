@@ -1,0 +1,50 @@
+/* element selector */
+h1{
+    background-color: blue;
+}
+
+
+/* id selector */
+#first{
+    color: rgba(0, 0, 0);
+    font-size: 40px;
+    
+    font-family: "Bitcount Prop Single Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style:  normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
+
+
+/* class selector */
+.second{
+    background-color: green;
+    font-style: italic;
+}
+.third{
+    background-color: orange;
+}
+
+
+/* group selector */
+h2, .third{
+    background-color: rgba(255, 99, 71, 0.414);
+}
+
+
+/* universal selector */
+/* *{
+    font-family: 'Courier New', Courier, monospace;
+} */
