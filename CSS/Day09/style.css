@@ -1,0 +1,41 @@
+/* *{
+    margin: 0;
+} */
+h1{
+    background-color: rgb(110, 104, 234) !important;
+}
+
+
+#day09{
+    background-color: rgb(234, 104, 104);
+}
+h2{
+    background-color: #5dcc38 !important;
+}
+
+
+
+h3{
+    background-color: rgb(234, 104, 204);
+    position: relative;                 /*reserved the space even we move*/
+    left: 20px;
+    top: 20px;
+}
+h4{
+    background-color: rgb(234, 204, 104);
+    position: fixed;               /* now free space */
+    left: 10px;
+    top: 0px;
+}
+h5{
+    background-color: silver;
+    position: sticky;           /* stays in same position until we scroll past it*/
+    top: 0px;
+}
+h6{
+    background-color: black;
+    color: white;
+    position: absolute;         /* moves according to the nearest positioned ancestor*/
+    left: 50px;
+    top: 0px;
+}
