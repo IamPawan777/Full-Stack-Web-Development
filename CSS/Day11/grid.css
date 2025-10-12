@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: rgb(193, 170, 125);
+    color: white;
+    height: 400px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.one{
+    background-color: red;
+}
+.two{
+    background-color: blue;
+}
+.three{
+    background-color: green;
+}  
+.four{
+    background-color: darkmagenta;
+}

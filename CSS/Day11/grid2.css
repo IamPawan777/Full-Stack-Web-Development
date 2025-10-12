@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    background-color: black;
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    gap: 10px;
+}
+.first{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.second{
+    background-color: green;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.third{
+    background-color: blue;
+    grid-column: 2/4;
+}
+.forth{
+    background-color: yellow;
+}
+.fivth{
+    background-color: saddlebrown;
+}
+.sixth{
+    background-color: orchid;
+    grid-column: 1/4;
+}

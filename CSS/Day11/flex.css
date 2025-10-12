@@ -1,0 +1,48 @@
+.card{
+    background-color: violet;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+.one{
+    background-color: yellow;
+    height: 100%;
+    width: 250px; 
+}
+.two{
+    /* background-color: green; */
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+}
+.three{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    
+}
+.four{
+    /* background-color: blue; */
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    gap: 10px;
+}
+.five{
+    background-color: orange;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+.six{
+    background-color: wheat;
+    height: 100%;
+    width: 100%;
+    flex: 2;
+}
