@@ -1,0 +1,215 @@
+*{
+    height: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    position: relative;
+    padding: 10px;
+    display: flex;
+}
+
+.box1{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    animation-name: A;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.box2{
+    background-color: #2fff00;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    animation-name: B;
+    animation-duration: 1.2s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.box3{
+    background-color: #000000;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 400px;
+    animation-name: C;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.box4{
+    background-color: #2f00ff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 600px;
+    animation-name: D;
+    animation-duration: 1.7s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.box5{
+    background-color: #f200ff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 800px;
+    animation-name: E;
+    animation-duration: 1.9s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.box6{
+    background-color: #ff0000;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1000px;
+    animation-name: F;
+    animation-duration: 1.4s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.box7{
+    background-color: #2fff00;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1200px;
+    animation-name: G;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.box8{
+    background-color: #ffe600;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1350px;
+    animation-name: H;
+    animation-duration: 1.2s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes A {
+    from{
+        background-color: blue;
+        top: 10px;
+        left: 7px;
+    }
+    to{
+        background-color: red;
+        top: 620px;
+        left: 10px;
+    }
+}
+@keyframes B {
+    from{
+        background-color: #2fff00;
+        top: 10px;
+        left: 200px;
+    }
+    to{
+        background-color: #ff00cc;
+        top: 620px;
+        left: 200px;
+    }
+}
+
+@keyframes C {
+    from{
+        background-color: #000000;
+        top: 10px;
+        left: 400px;
+    }
+    to{
+        background-color: #00ffe1;
+        top: 620px;
+        left: 400px;
+    }
+}
+@keyframes D {
+    from{
+        background-color: #1e00ff;
+        top: 10px;
+        left: 600px;
+    }
+    to{
+        background-color: #e9f720cc;
+        top: 620px;
+        left: 600px;
+    }
+}
+@keyframes E {
+    from{
+        background-color: #f200ff;
+        top: 10px;
+        left: 800px;
+    }
+    to{
+        background-color: #c54236cc;
+        top: 620px;
+        left: 800px;
+    }
+}
+@keyframes F {
+    from{
+        background-color: #ff0000;
+        top: 10px;
+        left: 1000px;
+    }
+    to{
+        background-color: #1700aecc;
+        top: 620px;
+        left: 1000px;
+    }
+}
+@keyframes G {
+    from{
+        background-color: #2fff00;
+        top: 10px;
+        left: 1200px;
+    }
+    to{
+        background-color: #ef6a23cc;
+        top: 620px;
+        left: 1200px;
+    }
+}
+@keyframes H {
+    from{
+        background-color: #ffe600;
+        top: 10px;
+        left: 1350px;
+    }
+    to{
+        background-color: #331726cc;
+        top: 620px;
+        left: 1350px;
+    }
+}
