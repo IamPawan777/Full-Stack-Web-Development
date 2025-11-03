@@ -105,3 +105,7 @@ for (let x of arr2) {
 }
 
 
+
+// get array values.. (array destructuring)
+const [a, b] = arr;
+console.log(a,b);
