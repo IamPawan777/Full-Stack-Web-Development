@@ -1,8 +1,9 @@
-// // forEach method.....
-// const arr = [1, 2, 3, 4, 5];
-// // arr.forEach((x)=>{
-// //     console.log(x);
-// // })
+// Array methods: forEach, sort, filter, map, reduce.......
+// forEach method.....
+const arr = [1, 2, 3, 4, 5];
+// arr.forEach((x)=>{
+//     console.log(x);
+// })
  
 // // for-each with index.....
 // arr.forEach((x, i)=>{
@@ -12,16 +13,39 @@
 
 
 
-// // filter method.....
-// const arr2 = [10, 15, 20, 25, 30];
+// // filter method....."return array"..
+// //Example 1...
+// const arr2 = [10, 50, 20, 40, 30];
 // let ansArr = arr2.filter((x)=> x > 18);
 // console.log(ansArr);                    // [20, 25, 30]
 
+// //Example 2...
+// const arr22 = ["apple", "banana", "grape", "kiwi", "mango"];
+// let ansArr2 = arr22.filter((x) => {
+//     if(x.includes("ap"))  
+//     return true;
+// });
+// console.log(ansArr2);                   // [ 'apple', 'grape' ]
 
-// // // map method.....
+
+
+
+// // // map method....."can return"....
 // const arr3 = [1, 2, 3, 4, 5];
 // let mappedArr = arr3.map((x)=> x * 2);
 // console.log(mappedArr);                 // [2, 4, 6, 8, 10]
+
+
+
+
+// // sorting array.......
+// const arr3 = [33,6,12,45,23,9];
+// // const sorted = arr3.sort((a,b) =>{
+// //     return a-b;
+// // });
+// const sorted = arr3.sort((a,b) => a-b);
+// console.log(sorted);
+
 
 
 
@@ -49,7 +73,7 @@ const products = [
 
 
 
-// // set......(no duplicate values)...........
+// set......(no duplicate values)...........
 // const arr4 = [1, 2, 3, 4, 5, 3, 2, 1];
 // const set = new Set(arr4);          // create set from array..unique values only
 // console.log(set);                      // Set(5) { 1, 2, 3, 4, 5 }
@@ -62,9 +86,10 @@ const products = [
 
 // // map........(key-value pairs)...........
 const arr5 = new Map([['name', 'Alice'], ['age', 25], ['city', 'Los Angeles']]);
-const mapFromArr = new Map(arr5);
-console.log(mapFromArr);               // Map(3) { 'name' => 'Alice', 'age' => 25, 'city' => 'Los Angeles' }
-// or
+console.log(arr5);               // Map(3) { 'name' => 'Alice', 'age' => 25, 'city' => 'Los Angeles' }
+
+
+// or map creation.......
 const map = new Map();
 map.set('name', 'John');              // set key-value pair
 map.set('age', 30);
@@ -73,6 +98,8 @@ console.log(map.get('name'));            // get value by key
 console.log(map.size);                     // size of map
 console.log(map.has('age'));             // check if key exists in map
 
+
+// iterate over map.........
 for(let x of map){
     console.log(x[0], x[1]);
 }
