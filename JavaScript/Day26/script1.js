@@ -9,9 +9,10 @@
 
 
 
-//....selecting elements...
-// by id....
+// // ....selecting elements...
+// // by id....
 // document.getElementById("first").style.color = "red";
+// //or..........
 // const sec = document.getElementById("second")
 // sec.style.color = "green";
 
@@ -24,23 +25,28 @@
 // elems[0].style.color = "purple";
 
 // // // by query selector...querySelector("id/class/tag");
-// const elem = document.querySelector("h1");
+// const elem = document.querySelector("#first");
+// console.log(elem.className);                    //get class Name
 // elem.style.color = "brown";
+// or........
+// const elem2 = document.querySelector("div");
+// console.log(elem2.children);
+// elem2.children[1].style.color = "orange";
+// elem2.children[2].style.backgroundColor = "lightblue";
 
 
 
 
-
-// property modification/update text only...
-// 1. textContent
+// // property modification/update text only...
+// // 1. textContent
 // const h2 = document.querySelector("h2");
 // h2.textContent = "This is modified by JavaScript";
 
-// 2. innerText
+// // 2. innerText
 // const para = document.querySelector("p");
 // para.innerText = "Hello World! This is changed by JavaScript.";
 
-//3. innerHTML
+// // 3. innerHTML
 // const div = document.querySelector("div");
 
 
