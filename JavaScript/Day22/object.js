@@ -72,7 +72,10 @@ const user = {
 let p1 = {
     name: "Pawan",
     age: 24,
-    skills: ["HTML", "CSS", "JS", "ReactJS"]
+    skills: ["HTML", "CSS", "JS", "ReactJS"],
+    // greet: function() {                                    // method can't be copied using structuredClone()
+    //     console.log("Hello, I am " + this.name);
+    // }                           
 }
 // let p2 = {...p1};          // CONTENT copy... only one level deep
 let p2 = structuredClone(p1);   // DEEP copy... multiple levels deep
