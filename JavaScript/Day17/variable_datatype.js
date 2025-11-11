@@ -1,4 +1,10 @@
 // Variable..
+// old way......
+na = "Hello";
+val = 21;
+console.log(na, val);
+
+
 // new way......
 let name = "Harry pot";
 let num = 21;

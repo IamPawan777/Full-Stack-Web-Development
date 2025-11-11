@@ -55,12 +55,12 @@
 
 
 
-// event bubbling -> child to parent.......
-const grandParent = document.getElementById("grandParent"); 
-grandParent.addEventListener("click", (e) => {  
-    console.log(e.target);
-    // console.log("grand parent");
-});
+// // event bubbling -> child to parent.......
+// const grandParent = document.getElementById("grandParent"); 
+// grandParent.addEventListener("click", (e) => {  
+//     console.log(e.target);
+//     // console.log("grand parent");
+// });
 
 
 
