@@ -1,24 +1,22 @@
-const data = fetch("https://api.thecatapi.com/v1/images/search?limit=10");           // promise pending state......
-console.log(data);
-
-data.then((response) => {            
-  return response.json();
-}).then((catData) => {                // fulfilled/resolve state......    
-  console.log(catData);
-}).catch((error) => {                  // reject state......
-  console.error("Error fetching data:", error);
-});
-
+// const data = fetch("https://api.thecatapi.com/v1/images/search?limit=10");           // promise pending state......
+// data.then((response) => {            
+//   return response.json();
+// }).then((catData) => {                // fulfilled/resolve state......    
+//   console.log(catData);
+// }).catch((error) => {                  // reject state......
+//   console.error("Error fetching data:", error);
+// });
 
 // or..........promise chaining
 
-fetch("https://api.thecatapi.com/v1/images/search?limit=10")                // fetch returns a promise
-    .then((response) => response.json())                                 // response.json() also returns a promise
-    .then((catData) => {                                               // fulfilled/resolve state......
-        console.log(catData); 
-    });                                                  // .catch() can be added here for error handling
+// fetch("https://api.thecatapi.com/v1/images/search?limit=10")                // fetch returns a promise
+//     .then((response) => response.json())                                 // response.json() also returns a promise
+//     .then((catData) => {                                               // fulfilled/resolve state......
+//         console.log(catData); 
+//     });                                                  // .catch() can be added here for error handling
 
     
+
 
 // with HTML..
 const h1 = document.createElement('H1');
@@ -48,9 +46,3 @@ fetch("https://api.thecatapi.com/v1/images/search?limit=10")
     });
 
 
-
-
-
-
-
-    
