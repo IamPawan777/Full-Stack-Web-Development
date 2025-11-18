@@ -37,13 +37,13 @@ function deliverFood(){
 
 // 2. promise().......
 orderFood()
-    .then((response) => {
+    .then(() => {
         return prepareFood();
     })
-    .then((response) => {
+    .then(() => {
         return deliverFood();
     })
-    .catch((error) =>{
+    .catch(() =>{
         console.log("Some-thing wrong...");
     });
 
