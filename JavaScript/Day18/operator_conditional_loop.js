@@ -21,6 +21,7 @@
 // console.log(a>b);           // false
 // console.log(a==b);          // false
 // console.log(a===b);      // check type -> comparition
+// console.log(2==='2')
 // console.log(null == undefined)          // true
 // console.log(null>=0);                   // true
 // console.log(undefined>=0);              // false
@@ -65,12 +66,12 @@
 
 
 
-// 5. conditional.....
-let age = 22;
-if(age>20)
-    console.log("Greater than age");
-else
-    console.log("Smaller");
+// // 5. conditional.....
+// let age = 22;
+// if(age>20)
+//     console.log("Greater than age");
+// else
+//     console.log("Smaller");
 
 
 
@@ -81,3 +82,21 @@ else
 // console.log(true && false);
 // console.log(false || true);
 // console.log(4!=9);
+
+
+
+
+
+
+
+function helper(str){
+    for(let i=0; i<str.length; i++) {
+        if(str.includes('n')){
+            return true;
+        }
+    }
+    return false;
+}
+    
+let ans = helper("pawa");
+console.log(ans);
