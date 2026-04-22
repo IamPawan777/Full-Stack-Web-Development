@@ -6,11 +6,11 @@
 
 //or...........
 
-// const element = document.getElementById("first");
-// element.onclick = function clickHere() {            //or....... function() {
-//     element.textContent = "You clicked the button!";
-//     element.style.color = "red";
-// }
+const element = document.getElementById("first");
+element.onclick = function clickHere() {            //or....... function() {
+    element.textContent = "You clicked the button!";
+    element.style.color = "red";
+}
 
 
 
